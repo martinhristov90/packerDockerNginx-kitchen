@@ -64,10 +64,10 @@ Test Summary: 1 successful, 0 failures, 0 skipped
 
 ```
 
-## NB : The section 
+### NB : The section in `template.json`
+```diff
+-        "changes": [
+-          "ENTRYPOINT [\"\"]"
+-        ]
 ```
-        "changes": [
-          "ENTRYPOINT [\"\"]"
-        ]
-```
-## Needs to be added because Packer overrides the default entrypoint of the ubuntu image with empty one.
+### Needs to be added because Packer overrides the default entrypoint of the ubuntu image with empty one.
