@@ -1,0 +1,16 @@
+driver:
+  name: docker
+provisioner:
+  name: shell
+
+verifier:
+  name: inspec
+
+platforms:
+- name: ubuntu
+  driver_config:
+    image: martin:0.1
+    platform: ubuntu
+
+suites:
+  - name: default
