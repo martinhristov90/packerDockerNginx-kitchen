@@ -1,0 +1,6 @@
+.vagrant/*
+*.log
+.kitchen/*
+.reproduce.sh
+Gemfile.lock
+template.json.working
